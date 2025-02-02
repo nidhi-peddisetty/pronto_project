@@ -6,6 +6,6 @@ class Property
     @colour = colour
     @type = type
     @owner = nil
-    @rent = calculate_rent
+    @rent = nil #calculate_rent method TBC
   end
 end
